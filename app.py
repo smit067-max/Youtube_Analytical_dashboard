@@ -19,7 +19,7 @@ st.sidebar.header("Dashboard Controls")
 channel_name = st.sidebar.text_input("Enter YouTube Channel Name")
 
 # YouTube API
-API_KEY = "AIzaSyCV984ecMGLjwzEKswchSZ3DCfxfRm3ZkI"
+API_KEY = "ENTER YOUR API KEY HERE"
 
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
